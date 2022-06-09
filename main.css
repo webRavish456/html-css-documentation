@@ -1,0 +1,45 @@
+
+  .column {
+    float: left;
+    width: 25%;
+    position: absolute;
+  }
+  .column1{
+      float: right;
+      width:70%;
+      position:relative;
+
+  }
+ .div{
+   min-inline-size: 80rem;
+ }
+ .course{
+     color: white;
+     padding: 10px;
+    text-decoration: none;
+     
+ }  
+ 
+   
+  body{
+      box-sizing: border-box;
+  }
+  @media screen and (max-width:500px ) {
+       .div{font-size: 35px;min-inline-size: 60rem;min-width: 64rem;}
+      img{width:500px}
+      ol{font-size: 30px;}
+      #a2{font-size: 30px; }
+  }
+  @media screen and (min-width:500px ) {
+    .div{font-size: 28px;min-inline-size:75rem }
+    img{width:500px}
+    ol{font-size: 25px;}
+    #a2{font-size: 25px; }
+}
+@media screen and (min-width:850px ) {
+  .div{font-size: 20px;min-inline-size:80rem }
+  img{width:300px;}
+  ol{font-size: 20px;}
+  #a2{font-size: 20px; }
+ 
+}
